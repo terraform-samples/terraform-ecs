@@ -4,6 +4,11 @@
 ####\ V /    / ___ \  |  _ <   | |   / ___ \  | |_) | | |___  | |___   ___) |
 #####\_/    /_/   \_\ |_| \_\ |___| /_/   \_\ |____/  |_____| |_____| |____/
 
+variable "region" {
+  default     = "eu-west-1"
+  description = "Region Where you want to host"
+}
+
 variable "vpc_cidr" {
   default     = "10.0.0.0/16"
   description = "VPC Block"

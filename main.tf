@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "eu-west-1"
-}
 
 module "ecs" {
   source = "modules/ecs"
